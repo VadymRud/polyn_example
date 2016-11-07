@@ -1,0 +1,29 @@
+django
+psycopg2 
+djangorestframework
+markdown
+pillow
+django-filter
+django-recaptcha
+django-blog-zinnia
+#gettext
+django_countries
+django-widget-tweaks
+django-ipware
+django-crum
+#sudo apt-get install libgeoip-dev -y
+#sudo pip3 install GeoIP
+django-user-sessions
+django-custom-user
+django-cities-light
+#django-bootstrap3
+django-extensions
+django-debug-toolbar
+django-tracking2
+django-rosetta
+#jsonfield
+django-mptt
+#pygraphviz
+jsonfield #for sqlite and MySQL
+pdfkit
+

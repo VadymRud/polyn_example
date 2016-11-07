@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-11 09:55+0000\n"
+"PO-Revision-Date: 2016-04-20 11:00+0000\n"
+"Last-Translator: b'  <adm@mail.ru>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.7.11\n"
+
+#: PyBuh/settings.py:143
+msgid "Ukrainian"
+msgstr "Украинская"
+
+#: accounting_entry/admin.py:8 chart_account/admin.py:8
+#: chart_account/admin.py:21 chart_account/admin.py:32 products/admin.py:7
+msgid "General information"
+msgstr "Информация"
+
+#: accounting_entry/admin.py:10 accounting_entry/models.py:22
+#: chart_account/admin.py:10 chart_account/admin.py:22
+#: chart_account/admin.py:33 chart_account/models.py:11 documentes/models.py:14
+#: products/admin.py:8 products/models.py:12 registeres/models.py:10
+msgid "Active"
+msgstr "Активный"
+
+#: accounting_entry/apps.py:7 accounting_entry/models.py:46
+msgid "Accounting Entry"
+msgstr ""
+
+#: accounting_entry/models.py:20 chart_account/models.py:9
+#: documentes/models.py:11 products/models.py:10 products/models.py:34
+#: registeres/models.py:8
+msgid "Unique code"
+msgstr "Уникальный код"
+
+#: accounting_entry/models.py:21 chart_account/models.py:10
+#: documentes/models.py:13 products/models.py:11 registeres/models.py:9
+msgid "Date creation"
+msgstr "Дата создания"
+
+#: accounting_entry/models.py:23 chart_account/models.py:12
+#: documentes/models.py:15 products/models.py:13 products/models.py:35
+#: registeres/models.py:11
+msgid "Full name"
+msgstr "Полное имя"
+
+#: accounting_entry/models.py:25 accounting_entry/models.py:27
+#, fuzzy
+#| msgid "Chart Account"
+msgid "Chart Accaunt Debit"
+msgstr "Бухгалтерская проводка"
+
+#: accounting_entry/models.py:29
+msgid "Count Debit"
+msgstr ""
+
+#: accounting_entry/models.py:30
+msgid "Count Credit"
+msgstr ""
+
+#: accounting_entry/models.py:31
+msgid "Sum Debit"
+msgstr ""
+
+#: accounting_entry/models.py:32
+msgid "Sum Credit"
+msgstr ""
+
+#: accounting_entry/models.py:47
+msgid "Accounting Entries"
+msgstr ""
+
+#: chart_account/apps.py:6
+msgid "Chart Account"
+msgstr "Бухгалтерская проводка"
+
+#: chart_account/models.py:13 documentes/models.py:16 products/models.py:14
+#: registeres/models.py:12
+msgid "Number"
+msgstr "Номер"
+
+#: chart_account/models.py:28
+msgid "Group Accaunt Plural"
+msgstr "Група Бухгалтерские Проводки"
+
+#: chart_account/models.py:37 chart_account/models.py:38
+msgid "Subconto"
+msgstr "Субконто(Аналитика)"
+
+#: chart_account/models.py:43
+msgid "No"
+msgstr "Нет"
+
+#: chart_account/models.py:44 chart_account/models.py:57
+msgid "quantitative"
+msgstr "Колличественный"
+
+#: chart_account/models.py:45
+msgid "monetary"
+msgstr "денежный"
+
+#: chart_account/models.py:49
+msgid "active"
+msgstr "активный"
+
+#: chart_account/models.py:50
+msgid "passive"
+msgstr "пассивный"
+
+#: chart_account/models.py:51
+msgid "active_passive"
+msgstr "Активно-Пассивный"
+
+#: chart_account/models.py:55
+msgid "Group Accaunt"
+msgstr "Групы Счетов"
+
+#: chart_account/models.py:56 products/models.py:15
+msgid "Description"
+msgstr "Описание"
+
+#: chart_account/models.py:59
+msgid "Active or Passive"
+msgstr "Активный или Пассивный"
+
+#: chart_account/models.py:64
+msgid "Chart Accaunt Plural"
+msgstr "Бухгалтерские проводки"
+
+#: documentes/models.py:12
+msgid "User"
+msgstr ""
+
+#: documentes/models.py:17
+#, fuzzy
+#| msgid "Chart Account"
+msgid "Chart Accaunt Active"
+msgstr "Бухгалтерская проводка"
+
+#: documentes/models.py:19
+#, fuzzy
+#| msgid "Chart Accaunt Plural"
+msgid "Chart Accaunt Passive"
+msgstr "Бухгалтерские проводки"
+
+#: documentes/models.py:27
+msgid "Stock Register"
+msgstr ""
+
+#: products/models.py:22
+msgid "Parent Catalog"
+msgstr ""
+
+#: products/models.py:29
+msgid "Product Catalog"
+msgstr ""
+
+#: products/models.py:30
+msgid "Products Catalogs"
+msgstr ""
+
+#: products/models.py:36
+msgid "Short name"
+msgstr ""
+
+#: products/models.py:37
+msgid "Value"
+msgstr ""
+
+#: products/models.py:44
+msgid "Units of measurement"
+msgstr ""
+
+#: products/models.py:45
+msgid "Units of measurements"
+msgstr ""
+
+#: products/models.py:49
+msgid "Catalog"
+msgstr ""
+
+#: products/models.py:50 products/models.py:51
+msgid "Units"
+msgstr ""
+
+#: products/models.py:58
+msgid "Product"
+msgstr ""
+
+#: products/models.py:59
+msgid "Products"
+msgstr ""
+
+#: registeres/apps.py:7
+msgid "Registeres"
+msgstr ""
+
+#: templates/admin/index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: templates/admin/index.html:31
+msgid "Add"
+msgstr ""
+
+#: templates/admin/index.html:37
+msgid "Change"
+msgstr ""
+
+#: templates/admin/index.html:47
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: templates/admin/index.html:55
+msgid "Recent Actions"
+msgstr ""
+
+#: templates/admin/index.html:56
+msgid "My Actions"
+msgstr ""
+
+#: templates/admin/index.html:60
+msgid "None available"
+msgstr ""
+
+#: templates/admin/index.html:74
+msgid "Unknown content"
+msgstr ""
+
+#~ msgid "Russian"
+#~ msgstr "Русский"
+
+#~ msgid "English"
+#~ msgstr "Английский"
